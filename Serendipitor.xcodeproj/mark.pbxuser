@@ -1,0 +1,173 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Serendipitor */ = {
+		activeExec = 0;
+		executables = (
+			4DED746012E897440051EAA8 /* Serendipitor */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = 4DED746012E897440051EAA8 /* Serendipitor */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Serendipitor */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Serendipitor */,
+		);
+		codeSenseManager = 4DED748812E897580051EAA8 /* Code sense */;
+		executables = (
+			4DED746012E897440051EAA8 /* Serendipitor */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					953,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322431113;
+			PBXWorkspaceStateSaveDate = 322431113;
+		};
+		perUserProjectItems = {
+			4D0F83011337EA06004D43FA /* PlistBookmark */ = 4D0F83011337EA06004D43FA /* PlistBookmark */;
+			4D0F83021337EA06004D43FA /* PBXTextBookmark */ = 4D0F83021337EA06004D43FA /* PBXTextBookmark */;
+			4D0F83031337EA06004D43FA /* PBXTextBookmark */ = 4D0F83031337EA06004D43FA /* PBXTextBookmark */;
+			4DCC511812EA171800591DE3 /* PlistBookmark */ = 4DCC511812EA171800591DE3 /* PlistBookmark */;
+		};
+		sourceControlManager = 4DED748712E897580051EAA8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2CFFCEAA12E84D6800886DA1 /* Instructions.csv */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 689}}";
+			sepNavSelRange = "{3970, 1}";
+			sepNavVisRange = "{1107, 3005}";
+		};
+	};
+	4D0F83011337EA06004D43FA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Serendipitor-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Users/mark/Documents/Projects/sentient city survival kit/development/serendipitor/source/Serendipitor/trunk/Serendipitor-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	4D0F83021337EA06004D43FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2CFFCEAA12E84D6800886DA1 /* Instructions.csv */;
+		name = "Instructions.csv: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 3112;
+		vrLoc = 0;
+	};
+	4D0F83031337EA06004D43FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2CFFCEAA12E84D6800886DA1 /* Instructions.csv */;
+		name = "Instructions.csv: 51";
+		rLen = 1;
+		rLoc = 3970;
+		rType = 0;
+		vrLen = 3005;
+		vrLoc = 1107;
+	};
+	4DCC511812EA171800591DE3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 4DED748612E897570051EAA8 /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mark/Documents/Projects/sentient city survival kit/development/serendipitor/source/Serendipitor/trunk/Entitlements.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	4DED746012E897440051EAA8 /* Serendipitor */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Serendipitor;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	4DED748712E897580051EAA8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4DED748812E897580051EAA8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

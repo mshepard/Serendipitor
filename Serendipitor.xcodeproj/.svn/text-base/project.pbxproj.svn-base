@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E04807812021D71004CA978 /* NSDataBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04807712021D71004CA978 /* NSDataBase64.m */; };
+		0E0480A012022F94004CA978 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E04809F12022F94004CA978 /* location.png */; };
+		0E0481071202393F004CA978 /* gradient2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0481061202393F004CA978 /* gradient2.png */; };
+		0E04810C12023AD3004CA978 /* FinalRouteStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04810B12023AD3004CA978 /* FinalRouteStep.m */; };
+		0E04818B120848CE004CA978 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04818A120848CE004CA978 /* Reachability.m */; };
+		0E04819B120848E7004CA978 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E04819A120848E7004CA978 /* SystemConfiguration.framework */; };
+		0E092FA211F9AD4900EE7A8D /* FinalRouteDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E092FA111F9AD4900EE7A8D /* FinalRouteDelegate.m */; };
+		0E09302511F9CFE200EE7A8D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E09302411F9CFE200EE7A8D /* CoreData.framework */; };
+		0E09345211FF35AF00EE7A8D /* GoogleEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E09345111FF35AF00EE7A8D /* GoogleEncoder.m */; };
+		0E96F08411F4508A00A4A697 /* CustomInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96F08311F4508A00A4A697 /* CustomInstruction.m */; };
+		0E96F09411F4526900A4A697 /* InstructionSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96F09311F4526900A4A697 /* InstructionSet.m */; };
+		0E96F09611F458DD00A4A697 /* Instructions.csv.old in Resources */ = {isa = PBXBuildFile; fileRef = 0E96F09511F458DD00A4A697 /* Instructions.csv.old */; };
+		0E96F44F11F5BC2700A4A697 /* logo-no-shine-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96F44E11F5BC2700A4A697 /* logo-no-shine-57x57.png */; };
+		0E96F47111F5D0CB00A4A697 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0E96F47011F5D0CB00A4A697 /* style.css */; };
+		0E96F57411F60C8500A4A697 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96F57311F60C8500A4A697 /* gradient.png */; };
+		0E96F72711F73EA800A4A697 /* NVPolylineAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96F72311F73EA800A4A697 /* NVPolylineAnnotationView.m */; };
+		0E96F72811F73EA800A4A697 /* NVPolylineAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96F72511F73EA800A4A697 /* NVPolylineAnnotation.m */; };
+		0E96F7D611F87B1200A4A697 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96F7D511F87B1200A4A697 /* camera.png */; };
+		0E96F8F311F89C8400A4A697 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E96F8F211F89C8400A4A697 /* MessageUI.framework */; };
+		0EEDB67511EDFDA800BD579D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDB67311EDFDA800BD579D /* Default@2x.png */; };
+		0EEDB67611EDFDA800BD579D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDB67411EDFDA800BD579D /* Default.png */; };
+		0EEDB6C511EE076B00BD579D /* logo-no-shine-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDB6C411EE076B00BD579D /* logo-no-shine-512x512.png */; };
+		0EEDB6DD11EE099800BD579D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEDB6DC11EE099800BD579D /* MapKit.framework */; };
+		0EEDB6EA11EE0D6D00BD579D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEDB6E911EE0D6D00BD579D /* CoreLocation.framework */; };
+		0EEDB7D711EF3BB500BD579D /* CustomPlaceMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDB7D611EF3BB500BD579D /* CustomPlaceMark.m */; };
+		0EEDB86811EF53A300BD579D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDB86711EF53A300BD579D /* Route.m */; };
+		0EEDB94B11F05DDB00BD579D /* Leg.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDB94A11F05DDB00BD579D /* Leg.m */; };
+		0EEDB95011F0630800BD579D /* Step.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDB94F11F0630800BD579D /* Step.m */; };
+		1D3623260D0F684500981E51 /* SerendipitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SerendipitorAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SerendipitorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SerendipitorViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SerendipitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SerendipitorViewController.m */; };
+		2C51942D12E6FA5F00994027 /* center_on_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C51942B12E6FA5F00994027 /* center_on_location.png */; };
+		2C51942E12E6FA5F00994027 /* center_on_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C51942C12E6FA5F00994027 /* center_on_location@2x.png */; };
+		2CFFCEAB12E84D6800886DA1 /* Instructions.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFCEAA12E84D6800886DA1 /* Instructions.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E04807612021D71004CA978 /* NSDataBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataBase64.h; sourceTree = "<group>"; };
+		0E04807712021D71004CA978 /* NSDataBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataBase64.m; sourceTree = "<group>"; };
+		0E04809F12022F94004CA978 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		0E0481061202393F004CA978 /* gradient2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient2.png; sourceTree = "<group>"; };
+		0E04810A12023AD3004CA978 /* FinalRouteStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalRouteStep.h; sourceTree = "<group>"; };
+		0E04810B12023AD3004CA978 /* FinalRouteStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalRouteStep.m; sourceTree = "<group>"; };
+		0E048189120848CE004CA978 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0E04818A120848CE004CA978 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0E04819A120848E7004CA978 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0E092FA011F9AD4900EE7A8D /* FinalRouteDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalRouteDelegate.h; sourceTree = "<group>"; };
+		0E092FA111F9AD4900EE7A8D /* FinalRouteDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalRouteDelegate.m; sourceTree = "<group>"; };
+		0E09302411F9CFE200EE7A8D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0E09303D11F9DC2A00EE7A8D /* SerendipitorMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerendipitorMainView.h; sourceTree = "<group>"; };
+		0E09345011FF35AF00EE7A8D /* GoogleEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleEncoder.h; sourceTree = "<group>"; };
+		0E09345111FF35AF00EE7A8D /* GoogleEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleEncoder.m; sourceTree = "<group>"; };
+		0E96F08211F4508A00A4A697 /* CustomInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomInstruction.h; sourceTree = "<group>"; };
+		0E96F08311F4508A00A4A697 /* CustomInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomInstruction.m; sourceTree = "<group>"; };
+		0E96F09211F4526900A4A697 /* InstructionSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionSet.h; sourceTree = "<group>"; };
+		0E96F09311F4526900A4A697 /* InstructionSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionSet.m; sourceTree = "<group>"; };
+		0E96F09511F458DD00A4A697 /* Instructions.csv.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instructions.csv.old; sourceTree = "<group>"; };
+		0E96F44E11F5BC2700A4A697 /* logo-no-shine-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-no-shine-57x57.png"; sourceTree = "<group>"; };
+		0E96F47011F5D0CB00A4A697 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		0E96F57311F60C8500A4A697 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		0E96F72311F73EA800A4A697 /* NVPolylineAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPolylineAnnotationView.m; sourceTree = "<group>"; };
+		0E96F72411F73EA800A4A697 /* NVPolylineAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPolylineAnnotationView.h; sourceTree = "<group>"; };
+		0E96F72511F73EA800A4A697 /* NVPolylineAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVPolylineAnnotation.m; sourceTree = "<group>"; };
+		0E96F72611F73EA800A4A697 /* NVPolylineAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVPolylineAnnotation.h; sourceTree = "<group>"; };
+		0E96F7D511F87B1200A4A697 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		0E96F8F211F89C8400A4A697 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0EEDB67311EDFDA800BD579D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0EEDB67411EDFDA800BD579D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0EEDB6C411EE076B00BD579D /* logo-no-shine-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-no-shine-512x512.png"; sourceTree = "<group>"; };
+		0EEDB6DC11EE099800BD579D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0EEDB6E911EE0D6D00BD579D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0EEDB7D511EF3BB500BD579D /* CustomPlaceMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPlaceMark.h; sourceTree = "<group>"; };
+		0EEDB7D611EF3BB500BD579D /* CustomPlaceMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPlaceMark.m; sourceTree = "<group>"; };
+		0EEDB86611EF53A300BD579D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		0EEDB86711EF53A300BD579D /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		0EEDB94911F05DDB00BD579D /* Leg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leg.h; sourceTree = "<group>"; };
+		0EEDB94A11F05DDB00BD579D /* Leg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leg.m; sourceTree = "<group>"; };
+		0EEDB94E11F0630800BD579D /* Step.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step.h; sourceTree = "<group>"; };
+		0EEDB94F11F0630800BD579D /* Step.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SerendipitorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerendipitorAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SerendipitorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerendipitorAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Serendipitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serendipitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SerendipitorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SerendipitorViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SerendipitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerendipitorViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SerendipitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerendipitorViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C51942B12E6FA5F00994027 /* center_on_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center_on_location.png; sourceTree = "<group>"; };
+		2C51942C12E6FA5F00994027 /* center_on_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "center_on_location@2x.png"; sourceTree = "<group>"; };
+		2CD4A9C012E4AB1400E0AB7D /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = Classes/Entitlements.plist; sourceTree = "<group>"; };
+		2CFFCEAA12E84D6800886DA1 /* Instructions.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instructions.csv; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Serendipitor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Serendipitor_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Serendipitor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Serendipitor-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				0EEDB6DD11EE099800BD579D /* MapKit.framework in Frameworks */,
+				0EEDB6EA11EE0D6D00BD579D /* CoreLocation.framework in Frameworks */,
+				0E96F8F311F89C8400A4A697 /* MessageUI.framework in Frameworks */,
+				0E09302511F9CFE200EE7A8D /* CoreData.framework in Frameworks */,
+				0E04819B120848E7004CA978 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0E048189120848CE004CA978 /* Reachability.h */,
+				0E04818A120848CE004CA978 /* Reachability.m */,
+				0E04810A12023AD3004CA978 /* FinalRouteStep.h */,
+				0E04810B12023AD3004CA978 /* FinalRouteStep.m */,
+				0E04807612021D71004CA978 /* NSDataBase64.h */,
+				0E04807712021D71004CA978 /* NSDataBase64.m */,
+				0E96F72311F73EA800A4A697 /* NVPolylineAnnotationView.m */,
+				0E96F72411F73EA800A4A697 /* NVPolylineAnnotationView.h */,
+				0E96F72511F73EA800A4A697 /* NVPolylineAnnotation.m */,
+				0E96F72611F73EA800A4A697 /* NVPolylineAnnotation.h */,
+				1D3623240D0F684500981E51 /* SerendipitorAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SerendipitorAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* SerendipitorViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SerendipitorViewController.m */,
+				0EEDB7D511EF3BB500BD579D /* CustomPlaceMark.h */,
+				0EEDB7D611EF3BB500BD579D /* CustomPlaceMark.m */,
+				0EEDB86611EF53A300BD579D /* Route.h */,
+				0EEDB86711EF53A300BD579D /* Route.m */,
+				0EEDB94911F05DDB00BD579D /* Leg.h */,
+				0EEDB94A11F05DDB00BD579D /* Leg.m */,
+				0EEDB94E11F0630800BD579D /* Step.h */,
+				0EEDB94F11F0630800BD579D /* Step.m */,
+				0E96F08211F4508A00A4A697 /* CustomInstruction.h */,
+				0E96F08311F4508A00A4A697 /* CustomInstruction.m */,
+				0E96F09211F4526900A4A697 /* InstructionSet.h */,
+				0E96F09311F4526900A4A697 /* InstructionSet.m */,
+				0E092FA011F9AD4900EE7A8D /* FinalRouteDelegate.h */,
+				0E092FA111F9AD4900EE7A8D /* FinalRouteDelegate.m */,
+				0E09303D11F9DC2A00EE7A8D /* SerendipitorMainView.h */,
+				0E09345011FF35AF00EE7A8D /* GoogleEncoder.h */,
+				0E09345111FF35AF00EE7A8D /* GoogleEncoder.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0E09301711F9CB5B00EE7A8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0EEDB66E11EDFA4300BD579D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2C51942B12E6FA5F00994027 /* center_on_location.png */,
+				2C51942C12E6FA5F00994027 /* center_on_location@2x.png */,
+				0E0481061202393F004CA978 /* gradient2.png */,
+				0E04809F12022F94004CA978 /* location.png */,
+				0E96F7D511F87B1200A4A697 /* camera.png */,
+				0E96F57311F60C8500A4A697 /* gradient.png */,
+				0E96F44E11F5BC2700A4A697 /* logo-no-shine-57x57.png */,
+				0EEDB6C411EE076B00BD579D /* logo-no-shine-512x512.png */,
+				0EEDB67311EDFDA800BD579D /* Default@2x.png */,
+				0EEDB67411EDFDA800BD579D /* Default.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Serendipitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0E09301711F9CB5B00EE7A8D /* Model */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				2CD4A9C012E4AB1400E0AB7D /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Serendipitor_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E96F47011F5D0CB00A4A697 /* style.css */,
+				2CFFCEAA12E84D6800886DA1 /* Instructions.csv */,
+				0E96F09511F458DD00A4A697 /* Instructions.csv.old */,
+				0EEDB66E11EDFA4300BD579D /* images */,
+				2899E5210DE3E06400AC0155 /* SerendipitorViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Serendipitor-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				0EEDB6DC11EE099800BD579D /* MapKit.framework */,
+				0EEDB6E911EE0D6D00BD579D /* CoreLocation.framework */,
+				0E96F8F211F89C8400A4A697 /* MessageUI.framework */,
+				0E09302411F9CFE200EE7A8D /* CoreData.framework */,
+				0E04819A120848E7004CA978 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Serendipitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Serendipitor" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Serendipitor;
+			productName = Serendipitor;
+			productReference = 1D6058910D05DD3D006BFB54 /* Serendipitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Serendipitor" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Serendipitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SerendipitorViewController.xib in Resources */,
+				0EEDB67511EDFDA800BD579D /* Default@2x.png in Resources */,
+				0EEDB67611EDFDA800BD579D /* Default.png in Resources */,
+				0EEDB6C511EE076B00BD579D /* logo-no-shine-512x512.png in Resources */,
+				0E96F09611F458DD00A4A697 /* Instructions.csv.old in Resources */,
+				0E96F44F11F5BC2700A4A697 /* logo-no-shine-57x57.png in Resources */,
+				0E96F47111F5D0CB00A4A697 /* style.css in Resources */,
+				0E96F57411F60C8500A4A697 /* gradient.png in Resources */,
+				0E96F7D611F87B1200A4A697 /* camera.png in Resources */,
+				0E0480A012022F94004CA978 /* location.png in Resources */,
+				0E0481071202393F004CA978 /* gradient2.png in Resources */,
+				2C51942D12E6FA5F00994027 /* center_on_location.png in Resources */,
+				2C51942E12E6FA5F00994027 /* center_on_location@2x.png in Resources */,
+				2CFFCEAB12E84D6800886DA1 /* Instructions.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SerendipitorAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SerendipitorViewController.m in Sources */,
+				0EEDB7D711EF3BB500BD579D /* CustomPlaceMark.m in Sources */,
+				0EEDB86811EF53A300BD579D /* Route.m in Sources */,
+				0EEDB94B11F05DDB00BD579D /* Leg.m in Sources */,
+				0EEDB95011F0630800BD579D /* Step.m in Sources */,
+				0E96F08411F4508A00A4A697 /* CustomInstruction.m in Sources */,
+				0E96F09411F4526900A4A697 /* InstructionSet.m in Sources */,
+				0E96F72711F73EA800A4A697 /* NVPolylineAnnotationView.m in Sources */,
+				0E96F72811F73EA800A4A697 /* NVPolylineAnnotation.m in Sources */,
+				0E092FA211F9AD4900EE7A8D /* FinalRouteDelegate.m in Sources */,
+				0E09345211FF35AF00EE7A8D /* GoogleEncoder.m in Sources */,
+				0E04807812021D71004CA978 /* NSDataBase64.m in Sources */,
+				0E04810C12023AD3004CA978 /* FinalRouteStep.m in Sources */,
+				0E04818B120848CE004CA978 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Developer/Serendipitor/trunk/Classes/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Serendipitor_Prefix.pch;
+				INFOPLIST_FILE = "Serendipitor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = Serendipitor;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Developer/Serendipitor/trunk/Classes/Entitlements.plist";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mark Shepard";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Serendipitor_Prefix.pch;
+				INFOPLIST_FILE = "Serendipitor-Info.plist";
+				PRODUCT_NAME = Serendipitor;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D1E005311FDF2A800361593 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		4D1E005411FDF2A800361593 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Developer/Serendipitor/trunk/Classes/Entitlements.plist";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mark Shepard";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Serendipitor_Prefix.pch;
+				INFOPLIST_FILE = "Serendipitor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = Serendipitor;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "847AF066-391E-45BC-8D17-F2E9DAB766E8";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		4D7A6F2C12049FAF00E9373B /* Distribution Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = "Distribution Ad Hoc";
+		};
+		4D7A6F2D12049FAF00E9373B /* Distribution Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Developer/Serendipitor/trunk/Classes/Entitlements.plist";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Serendipitor_Prefix.pch;
+				INFOPLIST_FILE = "Serendipitor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = Serendipitor;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Distribution Ad Hoc";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Serendipitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				4D1E005411FDF2A800361593 /* Distribution */,
+				4D7A6F2D12049FAF00E9373B /* Distribution Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Serendipitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				4D1E005311FDF2A800361593 /* Distribution */,
+				4D7A6F2C12049FAF00E9373B /* Distribution Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

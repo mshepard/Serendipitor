@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/7881/iphone/Serendipitor/trunk/Classes
+END
+CustomPlaceMark.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/7004/iphone/Serendipitor/trunk/Classes/CustomPlaceMark.h
+END
+InstructionSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/6977/iphone/Serendipitor/trunk/Classes/InstructionSet.h
+END
+Route.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/6982/iphone/Serendipitor/trunk/Classes/Route.h
+END
+CustomPlaceMark.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/7004/iphone/Serendipitor/trunk/Classes/CustomPlaceMark.m
+END
+Reachability.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/6998/iphone/Serendipitor/trunk/Classes/Reachability.h
+END
+InstructionSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/6994/iphone/Serendipitor/trunk/Classes/InstructionSet.m
+END
+Route.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/6991/iphone/Serendipitor/trunk/Classes/Route.m
+END
+FinalRouteStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/6994/iphone/Serendipitor/trunk/Classes/FinalRouteStep.h
+END
+Reachability.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/6998/iphone/Serendipitor/trunk/Classes/Reachability.m
+END
+SerendipitorMainView.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/7140/iphone/Serendipitor/trunk/Classes/SerendipitorMainView.h
+END
+Leg.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/6975/iphone/Serendipitor/trunk/Classes/Leg.h
+END
+FinalRouteStep.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/6994/iphone/Serendipitor/trunk/Classes/FinalRouteStep.m
+END
+GoogleEncoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/6989/iphone/Serendipitor/trunk/Classes/GoogleEncoder.h
+END
+Leg.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/6975/iphone/Serendipitor/trunk/Classes/Leg.m
+END
+GoogleEncoder.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/6989/iphone/Serendipitor/trunk/Classes/GoogleEncoder.m
+END
+NVPolylineAnnotationView.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/6982/iphone/Serendipitor/trunk/Classes/NVPolylineAnnotationView.h
+END
+NVPolylineAnnotationView.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/6989/iphone/Serendipitor/trunk/Classes/NVPolylineAnnotationView.m
+END
+NVPolylineAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/6982/iphone/Serendipitor/trunk/Classes/NVPolylineAnnotation.h
+END
+NVPolylineAnnotation.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/6982/iphone/Serendipitor/trunk/Classes/NVPolylineAnnotation.m
+END
+SerendipitorAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/6985/iphone/Serendipitor/trunk/Classes/SerendipitorAppDelegate.h
+END
+FinalRouteDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/7133/iphone/Serendipitor/trunk/Classes/FinalRouteDelegate.h
+END
+SerendipitorViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/7179/iphone/Serendipitor/trunk/Classes/SerendipitorViewController.h
+END
+FinalRouteDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/7881/iphone/Serendipitor/trunk/Classes/FinalRouteDelegate.m
+END
+SerendipitorAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/6994/iphone/Serendipitor/trunk/Classes/SerendipitorAppDelegate.m
+END
+SerendipitorViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/7188/iphone/Serendipitor/trunk/Classes/SerendipitorViewController.m
+END
+Step.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/6975/iphone/Serendipitor/trunk/Classes/Step.h
+END
+CustomInstruction.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/6977/iphone/Serendipitor/trunk/Classes/CustomInstruction.h
+END
+NSDataBase64.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/6994/iphone/Serendipitor/trunk/Classes/NSDataBase64.h
+END
+Step.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/6975/iphone/Serendipitor/trunk/Classes/Step.m
+END
+CustomInstruction.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/6977/iphone/Serendipitor/trunk/Classes/CustomInstruction.m
+END
+NSDataBase64.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/6994/iphone/Serendipitor/trunk/Classes/NSDataBase64.m
+END
